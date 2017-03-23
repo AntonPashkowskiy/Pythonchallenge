@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 def decrypt_byte_string(byte_string):
     exception_list = [ord(' '), ord('.'), ord('('), ord(')')]
@@ -5,8 +6,10 @@ def decrypt_byte_string(byte_string):
     translation_table = str.maketrans("{|", "ab")
     return pre_result_string.translate(translation_table)
 
+
 def main():
     print(decrypt_byte_string(b"map"))
+
 
 if __name__ == "__main__":
     main()
