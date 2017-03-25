@@ -3,3 +3,4 @@
 2. equality
 3. linkedlist
 4. peak.html
+5. channel
